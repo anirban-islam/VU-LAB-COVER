@@ -1,0 +1,136 @@
+*{
+    background-color:rgb(220, 243, 212);
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    background-color:transparent ;
+    color: fuchsia;
+    font-weight: 500;
+
+}
+span{
+    background-color: rgba(183, 245, 25, 0.923);
+    color: black;
+}
+h1{
+    background-color: rgb(216, 203, 235);
+    color: rgb(0, 38, 255);
+    text-align: center;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+h5{
+    background-color: rgb(216, 203, 235);
+    color: red;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.brand-title{
+    width: 100%;
+}
+.brand-name{
+    width: 80%;
+    background-color: rgb(216, 203, 235);
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.table{
+    width: 100%;
+    border: 1px solid rgba(183, 245, 25, 0.923);
+    text-align: center;
+     background-color: blueviolet;
+}
+td{
+    background-color: red;
+    background-color: rgb(216, 203, 235);
+    padding: .5rem;
+}
+.doc-download{
+    background-color: tomato;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.pdf-download{
+    background-color: yellow;
+    font-size: 1.3rem;
+    cursor: pointer;
+   
+}
+.doc-download a{
+    color: white;
+}
+th{
+    padding: .5rem;
+    background-color: aqua;
+}
+.Socal-link{
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.Socal-link a {
+    background-color: transparent;
+
+}
+.logo{
+    font-size: 30px;
+    background-color: transparent;
+    color:magenta;
+    transition: .3s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+h2 ,h4{
+    background-color: transparent;
+    text-align: center;
+}
+
+@media screen  and (max-width:576px){
+    *{
+        margin: 1;
+    }
+    .brand-name{
+        padding: 1rem;
+        width: 95%;
+    }
+    h1{
+        padding: 0;
+        font-size: 1rem;
+    }
+    h5{
+        margin-bottom: .5rem;
+    
+        padding: .5rem;
+        font-size: .5rem;
+    }
+    .table{
+        font-size: .5rem;
+        text-align: center;
+    }
+    th{
+        font-size: .6rem;
+    }
+    a{
+        font-size: .6rem;
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+    h2 ,h4{
+        background-color: transparent;
+        text-align: center;
+        font-size: .7rem;
+    }
+
+}
